@@ -1,0 +1,12 @@
+.tdaB {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.addTodo-back {
+  background-color: #0d1117 !important;
+}
+
+.border{
+  border: var(--bs-border-width) var(--bs-border-style) #0d1117 !important;
+}
