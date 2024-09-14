@@ -1,3 +1,39 @@
 .App {
   text-align: center;
 }
+.main-container{
+  height: 100svh;
+}
+.topheader{
+  background-color: #fd7f00;
+  height: 60px;
+  button {
+    background-color: #fd7e0000;
+    outline: none;
+    border: none;
+    font-size: 30px;
+  }
+}
+.fullWraper{
+  height: calc(100% - 60px);
+  display: flex;
+  align-items: center;
+}
+.sidebar {
+  background-color: green;
+  height:100%;
+  padding: 10px 15px;
+  overflow-y: scroll;
+}
+.sidebaritems{
+  background-color: yellow;
+  height: 45px;
+  width: 100%;
+  margin: 20px auto;
+}
+.contentbody{
+  background-color: yellow;
+  height: 100%;
+  width: calc(100% - 250px);
+  /* overflow-y: scroll; */
+}
